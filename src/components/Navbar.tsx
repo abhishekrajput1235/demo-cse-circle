@@ -25,7 +25,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Courses', path: '/courses' },
+    { name: 'PYQs', path: '/optional-math-pyq' },
     { name: 'Faculty', path: '/faculty' },
     { name: 'Results', path: '/results' },
     { name: 'Resources', path: '/resources' },

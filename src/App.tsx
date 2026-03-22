@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<Courses />} />
+          <Route path="/optional-math-pyq" element={<Courses />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/results" element={<Results />} />
           <Route path="/teachers" element={<Teachers />} />
