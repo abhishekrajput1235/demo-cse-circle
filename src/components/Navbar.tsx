@@ -64,9 +64,9 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link to="/login">
+            {/* <Link to="/login">
               <Button size="sm">Student Login</Button>
-            </Link>
+            </Link> */}
           </div>
 
           <button
