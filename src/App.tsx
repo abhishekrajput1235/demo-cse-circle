@@ -11,11 +11,13 @@ import Contact from './pages/Contact';
 import Teachers from './pages/Teachers';
 import Sociologyoptional from './pages/Sociologyoptional';
 import Mathsoptional from './pages/MathsOptional';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
+      <ScrollToTop />
       <Navbar />
       <main>
         <Routes>

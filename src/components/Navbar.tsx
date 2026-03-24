@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, GraduationCap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from './Button';
+import logo from '../assets/logo.webp';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,13 +42,14 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+            {/* <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
               <GraduationCap className="w-7 h-7 text-white" />
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <h1 className="text-xl font-bold text-gray-900">The CSE CIRCLE</h1>
               <p className="text-xs text-gray-600">Excellence in Education</p>
-            </div>
+            </div> */}
+            <img src={logo} alt="The CSE Circle Logo" className="w-16 h-auto" />
           </Link>
 
           <div className="hidden lg:flex items-center space-x-8">
