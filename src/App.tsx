@@ -12,6 +12,7 @@ import Teachers from './pages/Teachers';
 import Sociologyoptional from './pages/Sociologyoptional';
 import Mathsoptional from './pages/MathsOptional';
 import ScrollToTop from './components/ScrollToTop';
+import AnnouncementBar from './components/AnnouncementBar';
 
 
 function App() {
@@ -19,11 +20,14 @@ function App() {
     <div className="min-h-screen bg-white text-gray-900">
       <ScrollToTop />
       <Navbar />
+            <AnnouncementBar />
+
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/optional-math-pyq" element={<Courses />} />
+          <Route path="/optional-sociology-pyq" element={<Courses />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/results" element={<Results />} />
           <Route path="/teachers" element={<Teachers />} />
